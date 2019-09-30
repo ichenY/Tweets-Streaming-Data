@@ -111,10 +111,7 @@ object AveTweetLength {
     val consumerSecret = System.setProperty("twitter4j.oauth.consumerSecret", args(1))
     val accessToken = System.setProperty("twitter4j.oauth.accessToken", args(2))
     val accessTokenSecret = System.setProperty("twitter4j.oauth.accessTokenSecret", args(3))
-    /*yIMNaGSoqUXDf9V3tnU8J7nOX
-           ddvjvRpVWo3eYxfMnr5z6THOt6tJ6V5mkpQJS4wotvQVjNczCg
-           983959169458888704-PWRHjQn6sjyweN8rr1j0qIoVMosAZbu
-           lS92yhmhwHIL2cXpWflM2BVadgKceCr6Jamr6S6rBc5wM
+    /*----------oath---------
           */
 
     val sparkConf = new SparkConf().setAppName("hw5-1-2").setMaster("local[4]")
